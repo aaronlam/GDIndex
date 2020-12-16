@@ -30,12 +30,7 @@
 		</v-row>
 		<v-row justify="center">
 			<v-col md="8" lg="6">
-				<v-card
-					class="mx-auto"
-					min-height="400px"
-					tile
-					:loading="loading"
-				>
+				<v-card class="mx-auto" tile :loading="loading">
 					<v-list-item
 						v-for="item in list"
 						:key="item.id"
