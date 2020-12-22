@@ -22,10 +22,12 @@
 		<v-row justify="center" v-if="uploadEnabled">
 			<v-col md="8" lg="6" class="pt-0 pb-0">
 				<v-btn
-					v-text="$t('upload')"
-					color="primary"
+					color="success"
 					@click="showUploadDialog = true"
-				></v-btn>
+					style="width: 100%"
+					>{{ $t('upload') + '&nbsp;'
+					}}<v-icon dark>mdi-cloud-upload</v-icon></v-btn
+				>
 			</v-col>
 		</v-row>
 		<v-row justify="center">
