@@ -25,8 +25,7 @@
 					color="success"
 					@click="showUploadDialog = true"
 					style="width: 100%"
-					>{{ $t('upload') + '&nbsp;'
-					}}<v-icon dark>mdi-cloud-upload</v-icon></v-btn
+					><v-icon dark>mdi-cloud-upload</v-icon></v-btn
 				>
 			</v-col>
 		</v-row>
